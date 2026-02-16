@@ -8,9 +8,9 @@
 // 3. Public Key (e.g., 'AbCdEfGhIjKlMnOp')
 
 const EMAILJS_CONFIG = {
-  serviceID: "service_abc123",
-  templateID: "template_xyz789",
-  publicKey: "AbCdEfGhIjKlMnOp",
+  serviceID: "service_mcyl7ok",
+  templateID: "template_52g1ofp",
+  publicKey: "l53WEUL5uowmx0_X7",
 };
 
 const USE_DEMO_MODE = false; // Set to true to simulate form submission without sending real emails
