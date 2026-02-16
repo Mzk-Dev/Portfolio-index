@@ -517,6 +517,8 @@ section {
     color: rgba(255, 255, 255, 0.3);
     position: relative;
     overflow: hidden;
+    background-position: center;
+    background-size: cover;
 }
 
 .project-image::after {
