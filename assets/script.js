@@ -227,19 +227,3 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
-
-// ============================================
-// CONSOLE WELCOME MESSAGE
-// ============================================
-console.log(
-  "%c👋 Hello Developer!",
-  "font-size: 20px; font-weight: bold; color: #4169e1;",
-);
-console.log(
-  "%cInterested in the code? Check out the repository!",
-  "font-size: 14px; color: #a0a8c5;",
-);
-console.log(
-  "%c📧 EmailJS Status: " + (USE_DEMO_MODE ? "DEMO MODE" : "ACTIVE"),
-  "font-size: 12px; color: " + (USE_DEMO_MODE ? "#ef4444" : "#10b981"),
-);
