@@ -105,29 +105,6 @@ Edit the Portfolio Section in `index.html`. Each project card:
 - Make sure it's in the same folder as `index.html`
 - Fallback "MC" initials will show if photo fails
 
-### Email Not Sending
-**Check console (F12) for errors:**
-
-❌ `EmailJS is not configured`
-→ Update `EMAILJS_CONFIG` in `script.js`
-
-❌ `EmailJS is not loaded`
-→ Check internet connection
-→ Verify EmailJS script in `index.html`
-
-❌ `Failed to send email`
-→ Check Service ID, Template ID are correct
-→ Verify email service is connected in EmailJS dashboard
-
-✅ See `Simulated success` in console?
-→ You're in DEMO MODE, set `USE_DEMO_MODE = false`
-
-### Form Submits But No Email
-1. Check EmailJS dashboard for quota limits (200/month free)
-2. Verify "To Email" is set in your template
-3. Check spam folder
-4. Test template in EmailJS dashboard
-
 ## 📱 Browser Support
 
 - ✅ Chrome (latest)
@@ -155,9 +132,6 @@ Questions? Check:
 - EmailJS docs: [docs.emailjs.com](https://www.emailjs.com/docs/)
 - Open browser console (F12) for error messages
 - Test sending from EmailJS dashboard first
-
 ---
-
-**Remember:** Replace `YOUR_SERVICE_ID`, `YOUR_TEMPLATE_ID`, and `YOUR_PUBLIC_KEY` with your actual EmailJS credentials!
 
 Good luck! 🎉
