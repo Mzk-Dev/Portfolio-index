@@ -58,7 +58,7 @@ Edit in `index.html` (Contact Section):
 
 Edit in `index.html` (Hero Section):
 ```html
-<span class="stat-value">5+</span>
+<span class="stat-value">7+</span>
 <span class="stat-label">Years of Experience</span>
 ```
 
